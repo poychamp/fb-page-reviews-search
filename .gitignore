@@ -1,5 +1,5 @@
-css/
-js/
-manifest.json
-.idea/
-src/node_modules/
+/css/
+/js/
+/.idea/
+/src/node_modules/
+/manifest.json
