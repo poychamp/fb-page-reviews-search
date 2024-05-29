@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  -webkit-overflow-scrolling: touch;
+  transform: translate3d(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+p,
+ul,
+ol,
+blockquote {
+  line-height: 1.4;
+  text-align: left;
+}
+
+pre {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link {
+  color:inherit
+}
+
+a:active {
+  color:inherit
+}
+
+a:visited {
+  color:inherit
+}
+
+a:hover {
+  color:inherit
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.125rem;
+  line-height: 1;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 1.067;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.083;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.1;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.111;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.125;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a, pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+  #content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

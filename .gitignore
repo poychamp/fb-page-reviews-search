@@ -1,4 +1,5 @@
-*
-!src
-!index.html
-!.gitignore
+css/
+js/
+manifest.json
+.idea/
+src/node_modules/
